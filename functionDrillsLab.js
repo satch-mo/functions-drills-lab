@@ -56,10 +56,16 @@ printName(`Satchel`);
 
 //CODE HERE
 
-function greeting(name) {
+let greeting = (name) => {
+  let myStr = name.toString();
   console.log(`Hello, ${name}`);
-}
-greeting(`Satchel`);
+};
+greeting(25);
+
+// function greeting(name) {
+//   console.log(`Hello, ${name}`);
+// }
+// greeting(`Satchel`);
 
 ////////////////// PROBLEM 5 ////////////////////
 
